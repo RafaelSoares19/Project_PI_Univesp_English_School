@@ -2,36 +2,36 @@ export const navbarData = [
     {
         routeLink: 'dashboard',
         icon: 'fal fa-home',
-        label: 'Dashboard'
+        label: 'Cursos'
     },
     {
         routeLink: 'products',
         icon: 'fal fa-box-open',
-        label: 'Products'
+        label: 'Exercicios'
     },
     {
         routeLink: 'statistics',
         icon: 'fal fa-chart-bar',
-        label: 'Statistics'
+        label: 'Videos'
     },
     {
         routeLink: 'coupens',
         icon: 'fal fa-tags',
-        label: 'Coupens'
+        label: 'Audios'
     },
     {
         routeLink: 'pages',
         icon: 'fal fa-file',
-        label: 'Pages'
+        label: 'Fotos'
     },
     {
         routeLink: 'media',
-        icon: 'fal fa-camera',
+        icon: 'Ebooks Free',
         label: 'Media'
     },
     {
         routeLink: 'settings',
         icon: 'fal fa-cog',
-        label: 'Settings'
+        label: 'Cadastros'
     },
 ];
