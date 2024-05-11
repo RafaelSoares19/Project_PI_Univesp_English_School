@@ -11,7 +11,7 @@ interface SideNavToggle {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'home_culture_school';
+  title = 'sidenav';
 
   isSideNavCollapsed = false;
   screenWidth = 0;
