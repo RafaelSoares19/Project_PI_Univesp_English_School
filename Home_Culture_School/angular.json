@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "home_culture_school": {
+    "sidenav": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/home_culture_school",
+            "outputPath": "dist/sidenav",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "home_culture_school:build:production"
+              "browserTarget": "sidenav:build:production"
             },
             "development": {
-              "browserTarget": "home_culture_school:build:development"
+              "browserTarget": "sidenav:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "home_culture_school:build"
+            "browserTarget": "sidenav:build"
           }
         },
         "test": {
