@@ -24,14 +24,14 @@ export const navbarData = [
       icon: 'fal fa-camera',
       label: 'Fotos'
   },
-  {
-      routeLink: 'media',
-      icon: 'fal fa-book',
-      label: 'Ebooks Free'
-  },
-  {
-      routeLink: 'settings',
-      icon: 'fal fa-address-card',
-      label: 'Cadastros'
-  },
+  // {
+  //     routeLink: 'media',
+  //     icon: 'fal fa-book',
+  //     label: 'Ebooks Free'
+  // },
+  // {
+  //     routeLink: 'settings',
+  //     icon: 'fal fa-address-card',
+  //     label: 'Cadastros'
+  // },
 ];
