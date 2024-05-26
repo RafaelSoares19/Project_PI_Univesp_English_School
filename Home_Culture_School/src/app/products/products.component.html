@@ -1,15 +1,11 @@
-<h1>Exercises</h1>
-<header>
-  <img src="assets/images/cabeçario.jpg" alt="Cabeçalho">
-</header>
-
-<div class="card">
-    <div class="card-head"></div>
-    <div class="card-body">
-      <body class="bg-image">
-        <!-- Conteúdo do seu componente -->
-        </body>
-    </div>
+<h1>Complete the conversations. Use the words in the list.</h1>
+<div *ngIf="currentQuestionIndex < questions.length">
+  <p>{{ questions[currentQuestionIndex].sentence.replace('(' + questions[currentQuestionIndex].answer + ')', '________') }}</p>
+  <input [(ngModel)]="userAnswer" placeholder="Type your answer here">
+  <button (click)="checkAnswer()">Check Answer</button>
+  <p>{{ feedbackMessage }}</p>
+  <button (click)="nextQuestion()" *ngIf="feedbackMessage">Next Question</button>
 </div>
-<div class="card">
+<div *ngIf="currentQuestionIndex >= questions.length">
+  <p>Next</p>
 </div>
